@@ -4,27 +4,123 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>씨마스 교사 연수</title>
+    
     <style>
-      button {
-        padding: 10px;
-        font-size: 16px;
-        cursor: pointer;
-      }
-      p {
-        font-size: 20px;
-        line-height: 1.6;
-        margin: 10px;
-      }
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            text-align: center;
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(45deg, #007bff, #0056b3);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        button:hover {
+            background: linear-gradient(45deg, #0056b3, #004085);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        button:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
     </style>
 </head>
 
 <body>
     <h1>2025년 9월 17일 교사 연수</h1>
-    <P>학생 체험 계정</P>
-    <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=4b3ada58-b2ae-2b3e-c4d8-e044d8b2d75a';">학생1</button><br><br>
-    <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=a8f92b8d-6d8a-7c42-84fe-0843a0876da3';">학생2</button><br><br>
-    <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=b6884e84-9337-6ce4-f726-ac311ec28d59';">학생3</button><br><br>
-    <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=d02427cb-013f-c385-5fe0-0c9910dcd6fd';">학생4</button><br><br>
-    <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=fe11f171-55d4-0c82-715c-e12d2470b823';">학생5</button><br><br>
+    
+    <P>중학 학생 체험 계정</P>
+    <!-- 1행: 학생16-20 -->
+    <div class="button-container">
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=d8df7bed-b476-b533-decf-0392df18261a';">학생16</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=f4d0a6bc-69d7-ed66-638a-40d311d43738';">학생17</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=5046b0fb-a097-61a1-26aa-fe31e77005ad';">학생18</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=89b898aa-fd4f-bdcb-6a88-f3e08d8ab3bb';">학생19</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=1893fb9e-e862-6701-6b2c-fc0bf80d00f1';">학생20</button>
+    </div>
+    
+    <!-- 2행: 학생21-25 -->
+    <div class="button-container">
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=d951e1c9-09d7-d471-9b93-bff69f3db445';">학생21</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=bc465139-35d7-28a2-bab4-31ba2d946c5d';">학생22</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=eb7cfa3c-677e-53e2-f97f-2f7abcbfe277';">학생23</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=8c897827-58d4-3088-bf24-14cb85cf6fcb';">학생24</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=b5f49109-3e2b-f747-b7bf-99ed7cbd1ba2';">학생25</button>
+    </div>
+    
+    <!-- 3행: 학생26-30 -->
+    <div class="button-container">
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=2623eb9c-39ff-7813-1024-6b09d1fa2a1b';">학생26</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=d22db84f-ea7c-5384-ae26-4c0635fa0211';">학생27</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=cd74c43a-8f44-fa4f-9dd4-69edd40ab5a4';">학생28</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=02e450d2-eeb8-6a6b-be26-e7c895acd362';">학생29</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=a9e28a92-58ba-04bd-1d3a-bdea72b2512e';">학생30</button>
+    </div>
+    
+    <hr>
+
+    <p>고등 학생 체험 계정</p>    
+    <!-- 1행: 학생16-20 -->
+    <div class="button-container">
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=ceffaf33-b945-7f37-6828-123e193256a6';">학생16</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=66464d0b-d9ac-83ef-e818-ccdb5f10e9e6';">학생17</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=01edb7b6-0ce5-f363-cae2-5104657cc970';">학생18</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=f6826b92-9d9f-ea8d-9572-639bd6dfa758';">학생19</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=f69e8890-135d-fe4b-1580-746b1318e996';">학생20</button>
+    </div>
+    
+    <!-- 2행: 학생21-25 -->
+    <div class="button-container">
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=7dd47dab-4e4e-530e-980e-825c7c3c88e3';">학생21</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=1c31a744-484c-fc33-37b1-61ea636ea2dd';">학생22</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=ef4f33bf-02f2-6327-1262-b38e0042531d';">학생23</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=afaedb1a-54bc-e9cc-12ef-90977a89acf0';">학생24</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=9536489e-152d-b8e7-6f00-aac22b96e70a';">학생25</button>
+    </div>
+    
+    <!-- 3행: 학생26-30 -->
+    <div class="button-container">
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=d559ee6d-c183-809d-4131-fa113fcb731c';">학생26</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=c3591a1e-e204-1461-7518-4b7753af8feb';">학생27</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=00f0e4c3-5745-6c01-ba97-03a160ab477e';">학생28</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=995f2b0a-c393-94c4-d398-efe888dc1941';">학생29</button>
+        <button onclick="window.location.href='https://lms001.aiktbook.com/login?isSimul=Y&uuid=1f6dac9a-5a56-661b-abfb-882ef617fc88';">학생30</button>
+    </div>
+
+    
 </body>
 </html>
